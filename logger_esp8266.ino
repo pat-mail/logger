@@ -29,8 +29,8 @@ Adafruit_BME280 bme1; // Adresse I2C 0x76
 Adafruit_BME280 bme2; // Adresse I2C 0x77
 
 // Réseau
-const char* ssid = "Felix_UPMR";
-const char* password = "12345azer!";
+const char* ssid = ".......";
+const char* password = ".......";
 const char* serverUrl = "http://192.168.1.18:5000/receive_batch";
 const char* timeServerUrl = "http://192.168.1.18:5000/time";
 
