@@ -22,7 +22,7 @@ class SimulESPApp(tk.Tk):
     def create_widgets(self):
         ttk.Label(self, text="Nom de l'ESP simulé :").pack()
         self.device_var = tk.StringVar(value="mangue")
-        ttk.Combobox(self, textvariable=self.device_var, values=["mangue", "carambole", "ananas"]).pack()
+        ttk.Combobox(self, textvariable=self.device_var, values=["cerise", "pomme", "orange"]).pack()
 
         ttk.Label(self, text="Date de départ (YYYY-MM-DD HH:MM:SS) :").pack()
         self.date_entry = ttk.Entry(self)
